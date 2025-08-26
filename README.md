@@ -19,3 +19,29 @@ This dataset provides a valuable resource for analyzing transaction behavior, id
 - To identify the maximum transaction amount recorded in the dataset.
 
 - To compute the total amount of all transactions in the dataset.
+
+
+# Data Sources
+
+The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Detection dataset. It contains anonymized credit card transactions made by European cardholders in September 2013. The dataset includes 284,807 transactions, with features such as transaction Time, Amount, and a Class label indicating whether the transaction is legitimate (0) or fraudulent (1). Fraudulent transactions represent less than 0.2% of the total, reflecting the real-world imbalance of fraud detection problems.
+
+# Methodology
+
+- Data Collection: The dataset was sourced from Kaggle’s Credit Card Fraud Detection repository. It consists of 284,807 anonymized credit card transactions with three key variables: Time, Amount, and Class (fraud or non-fraud).
+
+- Data Preparation: The dataset was imported into Power BI and SQL for analysis. Data cleaning involved verifying column integrity, ensuring no missing values, and checking for outliers in transaction amounts.
+
+- Descriptive Analysis: Basic descriptive statistics were applied to determine the number of fraudulent transactions, the percentage of frauds, the average amounts for fraudulent vs. non-fraudulent transactions, the maximum transaction amount, and the total value of all transactions.
+
+- Visualization & Reporting: Power BI was used to create visual representations, including cards, tables, and charts, to highlight fraud distribution, transaction value comparisons, and overall patterns.
+
+- Interpretation: Results were interpreted in relation to fraud detection challenges, emphasizing the imbalance in the dataset and its implications for financial risk management.
+
+
+
+
+
+
+
+
+
