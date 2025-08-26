@@ -38,6 +38,22 @@ The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Det
 - Interpretation: Results were interpreted in relation to fraud detection challenges, emphasizing the imbalance in the dataset and its implications for financial risk management.
 
 
+# Research Questions
+- How many fraudulent transactions are in the dataset?
+- What percentage of the transactions are fraudulent?
+- What is the average transaction amount for fraudulent vs. non-fraudulent transactions?
+- What is the maximum transaction amount recorded in the dataset?
+- What is the Toatl Amount of Transactions?
+
+
+
+
+
+
+
+
+
+
 
 
 
