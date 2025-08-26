@@ -89,9 +89,17 @@ SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
  - The total transaction amount across the dataset is approximately $25,162,590.01.
 
 
+# Findings
 
+- The dataset contains 284,807 transactions, of which only 492 are fraudulent, showing the data is highly imbalanced.
 
+- Fraudulent transactions make up just 0.17% of the total, highlighting the rarity of fraud cases in real-world financial data.
 
+- The average transaction amount for fraudulent cases is about $122.21, slightly higher than the average for non-fraudulent transactions ($88.29).
+
+- The maximum recorded transaction amount is $25,691.16, indicating that both small and large transactions are subject to fraud risk.
+
+- The total transaction value across the dataset is approximately $25.16 million, showing the financial scale at stake in detecting fraudulent activity.
 
 
 
