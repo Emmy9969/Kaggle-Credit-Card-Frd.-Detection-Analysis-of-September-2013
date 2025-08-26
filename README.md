@@ -83,9 +83,13 @@ SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
 
  # Results
  - There are 492 fraudulent transactions out of 284,807 total transactions.
+  
  - Fraudulent transactions account for 0.17% of all transactions.
+   
  - The average fraudulent transaction amount is approximately $122.21, while the average non-fraudulent transaction amount is approximately $88.29.
+   
  - The maximum transaction amount recorded is $25,691.16.
+   
  - The total transaction amount across the dataset is approximately $25,162,590.01.
 
 
@@ -100,6 +104,45 @@ SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
 - The maximum recorded transaction amount is $25,691.16, indicating that both small and large transactions are subject to fraud risk.
 
 - The total transaction value across the dataset is approximately $25.16 million, showing the financial scale at stake in detecting fraudulent activity.
+
+
+# Recommendations
+
+- Adopt Machine Learning Models : Since fraudulent transactions are rare (0.17%), traditional methods may miss them. Implement anomaly detection and machine learning models to improve fraud detection accuracy.
+
+- Strengthen Monitoring of High-Value Transactions : The maximum transaction amount exceeds $25,000, so continuous monitoring of unusually large transactions is crucial to minimize potential losses.
+
+- Implement Real-Time Detection Systems : Given that fraud can occur at any time, organizations should use real-time monitoring systems to flag suspicious transactions instantly.
+
+- Focus on Imbalanced Data Handling : Techniques such as oversampling, undersampling, or cost-sensitive learning should be applied to address the dataset imbalance and improve             predictive model performance.
+
+- Enhance Preventive Measures : Banks and financial institutions should combine automated detection with stronger customer verification measures (e.g., multi-factor authentication) to reduce fraud attempts.
+
+- Ongoing Evaluation : Models and rules should be updated regularly as fraud patterns evolve, ensuring the system adapts to new attack strategies.
+
+
+# Possible Limitations
+
+- Imbalanced Dataset : Fraudulent transactions make up only 0.17% of the data, which may bias models toward predicting non-fraud cases and reduce detection accuracy.
+
+- Limited Features : The dataset only includes Time, Amount, and Class, while most real-world fraud detection requires additional variables such as location, merchant details, and customer history.
+
+- Anonymization of Data : Since the dataset is anonymized, important contextual information is missing, which restricts the ability to explore behavioral and demographic patterns.
+
+- Lack of Temporal Context : The Time variable only shows seconds since the first transaction but does not reflect actual dates or seasonal effects that may influence fraud.
+
+- Single Source of Data : The dataset originates from one card issuer in Europe (September 2013), which may limit the generalizability of findings to other regions, periods, or            financial systems.
+
+
+
+
+# Conclusion
+
+This study uses a dataset of 284,807 transactions, of which only 492 were fraudulent, to highlight the crucial problem of credit card fraud detection.  The average value of fraudulent transactions is somewhat higher than that of valid ones, and individual sums might exceed $25,000, making them a substantial financial risk even if they are uncommon.  The magnitude of the stakes in protecting financial systems is highlighted by the more than $25 million total transaction volume.
+
+The results reaffirm that fraud detection involves addressing the stark disparity between genuine and fraudulent cases in addition to spotting anomalies.  Advanced machine learning models, real-time monitoring, and flexible protection techniques that change with fraud tactics are necessary for effective solutions.  Institutions may lower vulnerabilities, safeguard clients, and guarantee trust in digital transactions by fusing technology with robust financial controls.
+
+
 
 
 
