@@ -23,7 +23,7 @@ This dataset provides a valuable resource for analyzing transaction behavior, id
 
 # Data Sources
 
-The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Detection dataset. It contains anonymized credit card transactions made by European cardholders in September 2013. The dataset includes 284,807 transactions, with features such as transaction Time, Amount, and a Class label indicating whether the transaction is legitimate (0) or fraudulent (1). Fraudulent transactions represent less than 0.2% of the total, reflecting the real-world imbalance of fraud detection problems.
+The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Detection dataset. It contains anonymized credit card transactions made by European cardholders in September  2013. The dataset includes 284,807 transactions, with features such as transaction Time, Amount, and a Class label indicating whether the transaction is legitimate (0) or fraudulent (1). Fraudulent transactions represent less than 0.2% of the total, reflecting the real-world imbalance of fraud detection problems.
 
 # Methodology
 
