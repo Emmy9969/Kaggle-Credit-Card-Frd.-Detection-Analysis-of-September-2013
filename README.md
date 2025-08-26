@@ -7,3 +7,15 @@ This dataset contains 284,807 anonymized credit card transactions with three fie
 The credit card fraud detection dataset contains 284,807 anonymized transactions, each with details on transaction time, amount, and classification as fraudulent or legitimate. Fraudulent transactions account for less than 0.2% of the data, highlighting the extreme imbalance that makes fraud detection a complex challenge.
 
 This dataset provides a valuable resource for analyzing transaction behavior, identifying unusual spending patterns, and building predictive models for fraud detection. Its size and imbalance closely mirror real-world scenarios, making it an ideal benchmark for testing the effectiveness of anomaly detection and machine learning algorithms.
+
+# Report Objectives
+
+- To determine how many fraudulent transactions are present in the dataset.
+
+- To calculate the percentage of transactions that are fraudulent.
+
+- To compare the average transaction amount between fraudulent and non-fraudulent transactions.
+
+- To identify the maximum transaction amount recorded in the dataset.
+
+- To compute the total amount of all transactions in the dataset.
