@@ -47,6 +47,38 @@ The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Det
 
 
 
+# Data Analysis
+- A Query to know how many fraudulent transactions are in the dataset?
+
+SELECT COUNT(*) AS Fraud_Count
+FROM [Kaggle Creditcard Frd.]
+WHERE Class = 1;
+
+
+- A Query to know what percentage of the transactions are fraudulent?
+
+SELECT (COUNT(CASE WHEN Class = 1 THEN 1 END) * 100.0 / COUNT(*)) AS Fraud_Percentage
+FROM [Kaggle Creditcard Frd.];
+
+
+- A Query to know the average transaction amount for fraudulent vs. non-fraudulent transactions?
+
+SELECT Class, AVG(Amount) AS Avg_Transaction_Amount
+FROM [Kaggle Creditcard Frd.]
+GROUP BY Class;
+
+
+- A Query to know the maximum transaction amount recorded in the dataset?
+
+SELECT MAX(Amount) AS Max_Transaction_Amount
+FROM [Kaggle Creditcard Frd.];
+
+- A Query know to the Toatl Amount of Transactions?
+
+
+SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
+
+
 
 
 
