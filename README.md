@@ -74,8 +74,9 @@ GROUP BY Class;
 SELECT MAX(Amount) AS Max_Transaction_Amount
 FROM [Kaggle Creditcard Frd.];
 
-- A Query know to the Toatl Amount of Transactions?
 
+![FOUR](./Dashboard-4.PNG)
+- A Query know to the Toatl Amount of Transactions?
 
 SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
 
