@@ -54,7 +54,7 @@ SELECT COUNT(*) AS Fraud_Count
 FROM [Kaggle Creditcard Frd.]
 WHERE Class = 1;
 
-! [Transa](./Dashboard-1.PNG)
+! [Fra](./Dashboard-1.PNG)
 
 - A Query to know what percentage of the transactions are fraudulent?
 
