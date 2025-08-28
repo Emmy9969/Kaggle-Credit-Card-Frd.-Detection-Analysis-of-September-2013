@@ -47,7 +47,7 @@ The dataset used in this study is obtained from Kaggle’s Credit Card Fraud Det
 
 
 
-# Data Analysis
+# Data Analysis / Results
 - A Query to know how many fraudulent transactions are in the dataset?
 
 SELECT COUNT(*) AS Fraud_Count
@@ -81,16 +81,6 @@ SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
 
 
 
- # Results
- - There are 492 fraudulent transactions out of 284,807 total transactions.
-  
- - Fraudulent transactions account for 0.17% of all transactions.
-   
- - The average fraudulent transaction amount is approximately $122.21, while the average non-fraudulent transaction amount is approximately $88.29.
-   
- - The maximum transaction amount recorded is $25,691.16.
-   
- - The total transaction amount across the dataset is approximately $25,162,590.01.
 
 
 # Findings
