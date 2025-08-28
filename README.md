@@ -76,11 +76,13 @@ FROM [Kaggle Creditcard Frd.];
 
 
 ![FOUR](./Dashboard-4.PNG)
+
 - A Query know to the Toatl Amount of Transactions?
 
 SELECT SUM(Amount) AS Total_Transactions_Amount from [Kaggle Creditcard Frd.]
 
 
+![FIVE](./Dashboard-5.PNG)
 
 
 
