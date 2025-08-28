@@ -61,7 +61,7 @@ WHERE Class = 1;
 SELECT (COUNT(CASE WHEN Class = 1 THEN 1 END) * 100.0 / COUNT(*)) AS Fraud_Percentage
 FROM [Kaggle Creditcard Frd.];
 
-
+![2](./Dashboard-2.PNG)
 - A Query to know the average transaction amount for fraudulent vs. non-fraudulent transactions?
 
 SELECT Class, AVG(Amount) AS Avg_Transaction_Amount
