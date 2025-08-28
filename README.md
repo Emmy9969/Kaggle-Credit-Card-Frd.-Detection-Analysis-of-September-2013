@@ -68,7 +68,7 @@ SELECT Class, AVG(Amount) AS Avg_Transaction_Amount
 FROM [Kaggle Creditcard Frd.]
 GROUP BY Class;
 
-
+![THRE](./Dashboard-3.PNG)
 - A Query to know the maximum transaction amount recorded in the dataset?
 
 SELECT MAX(Amount) AS Max_Transaction_Amount
